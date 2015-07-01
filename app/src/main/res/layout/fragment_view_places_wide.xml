@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Master layout. -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="16dp" >
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:minWidth="56dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/nombre"
+                    android:textSize="25dp"
+                    android:textColor="@color/puertoplata_dark_green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/foto"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/nombre"
+                    android:padding="2dp"
+                    android:layout_width="2048dp"
+                    android:layout_height="600dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"/>
+
+
+                <ImageView
+                    android:id="@+id/direction"
+                    android:layout_toRightOf="@+id/foto"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_direction"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+                <ImageView
+                    android:id="@+id/call"
+                    android:layout_below="@+id/nombre"
+                    android:baselineAlignBottom="true"
+                    android:layout_toRightOf="@id/direction"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_call"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:id="@+id/web"
+
+                    android:layout_below="@+id/nombre"
+                    android:baselineAlignBottom="true"
+                    android:layout_toRightOf="@id/call"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_web"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/descripcion"
+                    android:textSize="18dp"
+                    android:layout_toRightOf="@+id/foto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines = "10"
+                    android:ellipsize="marquee"
+                    android:focusable="false"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:scrollbars = "vertical"
+                    android:scaleType="fitStart"
+                    android:padding="5dp" />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>

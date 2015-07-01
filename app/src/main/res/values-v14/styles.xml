@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.PuertoPlata</item>
+        <item name="colorPrimary">@color/puertoplata_green</item>
+        <item name="colorPrimaryDark">@color/puertoplata_dark_green</item>
+    </style>
+
+    <style name="PlacesTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.PuertoPlata.NoTitle</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.PuertoPlata" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/puertoplata_green</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.PuertoPlata.NoTitle" parent="@style/ActionBar.Solid.PuertoPlata">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+
+    </style>
+
+    <!-- Style for forecast listview -->
+    <style name="PlacesListStyle">
+        <!-- Here it's a stub.  In screens of sufficient width, this style includes modifications
+        for two-pane layout -->
+    </style>
+
+
+</resources>

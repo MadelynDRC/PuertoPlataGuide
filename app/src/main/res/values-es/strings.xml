@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PuertoPlataGuía</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_category">Categorías</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="wait">Cargando información ...</string>
+    <string name="waiting">Cargando información ...</string>
+
+    <string name="title_activity_detail">Detalles</string>
+    <string name="pref_language_default">Spanish</string>
+
+
+    <string name="pref_title_languages">Idiomas</string>
+    <string name="pref_title_language">Idioma</string>
+    <string name="action_share">Compartir</string>
+    <string-array name="pref_languages_list_titles">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Idioma del sistema</item>
+    </string-array>
+
+
+    <string name="title_activity_settings">Ajustes</string>
+    <string-array name="pref_languages_list_values">
+        <item>es</item>
+        <item>en</item>
+        <item>default</item>
+    </string-array>
+
+    <string name="title_activity_activity__view_places">Actividad de vista de lugares</string>
+    <string name="pref_languages_key">Clave de Lenguaje</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_languages">Languages</string>
+    <string name="pref_title_language">Language</string>
+    <string-array name="pref_languages_list_titles">
+        <item>Spanish</item>
+        <item>English</item>
+        <item>System default</item>
+    </string-array>
+
+
+    <string-array name="pref_languages_list_values">
+        <item>es</item>
+        <item>en</item>
+        <item>default</item>
+    </string-array>
+
+
+
+
+</resources>

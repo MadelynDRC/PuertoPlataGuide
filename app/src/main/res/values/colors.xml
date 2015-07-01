@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent">#5ECDD1</drawable>
+    <drawable name="altercolor1">#ffffffff</drawable>
+    <drawable name="altercolor2">#F0F8FF</drawable>
+    <color name="grey">#cccccc</color>
+    <color name="puertoplata_light_green">#5ECDD1</color>
+    <color name="puertoplata_green">#02BEC4</color>
+    <color name="puertoplata_dark_green">#018F94</color>
+
+</resources>
